@@ -65,7 +65,7 @@ const getChatResponse = async (incomingChatDiv) => {
         pElement.textContent = response.choices[0].text.trim();
     } catch (error) {
         pElement.classList.add("error");
-        pElement.textContent = "Oops! Something went wrong while retrieving the response. Please try again.";
+        pElement.textContent = "IMPORTANT NOTE - AI WILL NOT RESPOND AS OF NOW BECAUSE THE API USED FOR FETCHING THE DATA IS EXPIRED DUE TO VIOLATING OPENAPI POLICIES AS I HAVE UPLOADED THE API ON GITHUB WHILE DEPLOYING MY CODE.";
     }
 
     //Remove the typing animation, append the paragraph element and save chats to local storage.
